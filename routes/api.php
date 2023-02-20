@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/charge-card', 'PaymentContoller@chargeCard');
-Route::post('/verify-card-charge', 'PaymentContoller@verifyCardCharge');
+Route::post('/charge-card', 'PaymentController@chargeCard');
+Route::post('/verify-card-charge', 'PaymentController@verifyCardCharge');
